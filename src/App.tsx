@@ -39,22 +39,22 @@ const App = () => (
           <ChatProvider>
             <Routes>
               <Route path="/" element={<Index />} />
-              <Route path="rp" element={<RecruitmentProcess />} />
-              <Route path="real-estate" element={<RealEstateSolutions />} />
-              <Route path="back-office" element={<BackOffice />} />
-              <Route path="cx" element={<CX />} />
-              <Route path="merchant" element={< MerchantServices/>} />
-              <Route path="why-kenya" element={<WhyKenya />} />
-              <Route path="vizx-hi-ai" element={<VizxHI />} />
-              <Route path="healthcare" element={<Healthcare />} />
-              <Route path="real-estate-industry" element={<RealEstate />} />
-              <Route path="technology" element={<Technology />} />
-              <Route path="finance" element={<Finance />} />
-              <Route path="travel" element={<Travel />} />
-              <Route path="logistics" element={<Logistics />} />
-              <Route path="manufacturing" element={<Manufuctering />} />
-              <Route path="retail" element={<Retail />} />
-              <Route path="employee-welfare" element={<WelfareFund />} />
+              <Route path="/rp" element={<RecruitmentProcess />} />
+              <Route path="/real-estate" element={<RealEstateSolutions />} />
+              <Route path="/back-office" element={<BackOffice />} />
+              <Route path="/cx" element={<CX />} />
+              <Route path="/merchant" element={< MerchantServices/>} />
+              <Route path="/why-kenya" element={<WhyKenya />} />
+              <Route path="/vizx-hi-ai" element={<VizxHI />} />
+              <Route path="/healthcare" element={<Healthcare />} />
+              <Route path="/real-estate-industry" element={<RealEstate />} />
+              <Route path="/technology" element={<Technology />} />
+              <Route path="/finance" element={<Finance />} />
+              <Route path="/travel" element={<Travel />} />
+              <Route path="/logistics" element={<Logistics />} />
+              <Route path="/manufacturing" element={<Manufuctering />} />
+              <Route path="/retail" element={<Retail />} />
+              <Route path="/employee-welfare" element={<WelfareFund />} />
               
               <Route path="*" element={<NotFound />} />
             </Routes>
